@@ -1,0 +1,127 @@
+{
+  "order_info": {
+    "order_number": 34252345,
+    "order_date": "2018-02-24T13:25:31Z",
+    "order_items": [{
+      "categories": [
+        "Clothing"
+      ],
+      "is_backordered": true,
+      "description": "Red Shoe made by designer",
+      "discount_amount": "10.00",
+      "discount_percent": "5.00",
+      "final_sale_date": "2018-02-25T13:25:31Z",
+      "fulfillment_status": "SHIPPED",
+      "is_final_sale": true,
+      "is_gift": true,
+      "item_id": 43582,
+      "item_image": "https://itemimageurl.png",
+      "item_promise_date": "2018-02-25T13:25:31Z",
+      "item_url": "https://item123.html",
+      "line_number": 1,
+      "name": "Red Shoe",
+      "quantity": 7,
+      "sku": "D2343122",
+      "unit_price": 32,
+      "fulfillment_type": "HD",
+      "attributes": {
+        "color": "red"
+      }
+    }],
+    "billing": {
+      "amount": "30.00",
+      "payments": [{
+        "is_gift_card": true,
+        "merchant": "VISA",
+        "method": "swipe",
+        "expiration_date": "02/19"
+      }],
+      "billed_to": {
+        "email": "john.doe@narvar.com",
+        "first_name": "John",
+        "last_name": "Doe",
+        "phone": 6501234567,
+        "address": {
+          "street_1": "633 Folsom Street",
+          "street_2": "Floor 2",
+          "city": "San Francisco",
+          "state": "CA",
+          "zip": 94107,
+          "country": "US"
+        }
+      },
+      "tax_amount": "12.50",
+      "tax_rate": "9.8",
+      "shipping_handling": "4.30"
+    },
+    "customer": {
+      "customer_id": 78997234200222,
+      "address": {
+        "street_1": "633 Folsom Street",
+        "street_2": "Floor 2",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": 94107,
+        "country": "US"
+      },
+      "email": "john.doe@narvar.com",
+      "first_name": "John",
+      "last_name": "Doe",
+      "phone": 6501234567,
+      "customer_type": "premium"
+    },
+    "attributes": {
+      "promotion": "bogo",
+      "checkout_brand": "peninsula",
+      "checkout_language": "fr",
+      "checkout_country": "CA",
+      "checkout_locale": "fr_CA"
+    },
+    "currency_code": "USD",
+    "shipments": [{
+      "items_info": [{
+        "item_id": "43582",
+        "sku": "D2343122",
+        "quantity": 1
+      }],
+      "ship_method": "Standard",
+      "carrier": "UPS",
+      "carrier_service": "UG",
+      "ship_source": "DCWest",
+      "ship_date": "2018-02-25T13:25:31Z",
+      "ship_discount": "5.00",
+      "ship_tax": "10.00",
+      "ship_total": "100.00",
+      "tracking_number": "1Z517757671802283",
+      "shipped_from": {
+        "company_name": "Acme International",
+        "email": "john.doe@narvar.com",
+        "first_name": "John",
+        "last_name": "Doe",
+        "phone": 6501234567,
+        "address": {
+          "street_1": "633 Folsom Street",
+          "street_2": "Floor 2",
+          "city": "San Francisco",
+          "state": "CA",
+          "zip": 94107,
+          "country": "US"
+        }
+      },
+      "shipped_to": {
+        "email": "john.doe@narvar.com",
+        "first_name": "John",
+        "last_name": "Doe",
+        "phone": 6501234567,
+        "address": {
+          "street_1": "633 Folsom Street",
+          "street_2": "Floor 2",
+          "city": "San Francisco",
+          "state": "CA",
+          "zip": 94107,
+          "country": "US"
+        }
+      }
+    }]
+  }
+}

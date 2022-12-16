@@ -1,0 +1,4 @@
+narvar:
+  url: https://ws-st01.narvar.qa/api/v1
+  retryMaxAttempts: 5
+  retryInterval: 3000
